@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { PersistGate } from "redux-persist/integration/react";
 
 import App from "./App";
-import { persistor, store } from "./redux/user/store";
+import { persistor, store } from "./redux/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

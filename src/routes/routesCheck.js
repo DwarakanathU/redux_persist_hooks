@@ -1,5 +1,5 @@
 import { Redirect, Route } from "react-router-dom";
-import { store } from "../redux/user/store";
+import { store } from "../redux/store";
 import { LOGIN_PATH } from "./routesPath";
 
 export const PublicRoutes = ({
